@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+
+
+/*---------------------------------------------- common css----------------------------------------- */
+
+body {
+	line-height: 1.5;
+	font-weight: 400;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+body.hidden-scrolling {
+	overflow-y: hidden;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+
+
+#extra_space {
+	margin-top: 112px;
+}
+
+section {}
+
+.container_wx {
+	max-width: 1170px;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*----------------------------------------------------home section------------------------------------------------------*/
+.home1 {
+	min-height: 90vh;
+	background-image: linear-gradient(to right,rgba(0,0,0,.773),rgba(109, 242, 116, 0.6)),url(../img/bg1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content.text-center h1 {
+	color: #FFFFFF;
+	font-family: "Montserrat", Sans-serif;
+	font-size:60px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-shadow: 6px 6px 0px rgb(0 0 0 / 85%);
+}
+.content.text-center h4 {
+	color: #FFFFFF;
+	font-size: 35px;
+	font-weight: 600;
+	text-shadow: 3px 3px 0px rgb(0 0 0 / 85%);
+}
+.content.text-center h3 {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 0px rgb(0 0 0 / 85%);
+}
+.empower_content button {
+    border: none;
+	background: #440b94;
+    padding: 7px 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    transition: 0.3s;
+}
+
+.home_button_2 a {
+    padding: 15px 30px;
+	background: #440b94;
+    font-size: 15px;
+    font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+.home_button_2 a:hover {
+	background: transparent;
+	border:1px solid #fff;
+}
+
+.short_info img {
+	width: 80%;
+}
+
+.empower_content p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #373a3cd6;
+    margin: 10px 0px;
+    line-height: 1.7em;
+}
+
+
+
+.hero_cta {
+	background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/bg4.jpg") fixed center center;
+	background-size: cover;
+	padding: 150px 0;
+  }
+  
+  .hero_cta h3 {
+	color: #fff;
+	font-weight: 600;
+  }
+  
+  .hero_cta p {
+	color: #fff;
+	font-weight: 500;
+  }
+  
+  .servicss_contentx h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.col-md-3.title_linnk a {
+    color: #000;
+}
+.servicss_contentx.text-center.m-3 {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding: 20px 10px;
+}
+
+.contact_info_para {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.main_footer {
+	color: #000000;
+	padding-left: 10px;
+}
+
+.short_info li a:hover{
+	color: #000 !important;
+}
+
+li {
+	list-style: none;
+}
+
+/*------------------------------------------ socail link css-------------------------------------------------------- */
+.short_info h3 {
+	font-weight: 700;
+	/* color: #e8e6e6; */
+	font-size: 18px;
+}
+
+.short_info i {
+	font-size: 20px;
+	margin-right: 10px;
+	color: #000000a5;
+}
+.short_info h{
+	font-weight: 600;
+}
+.short_info h4 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+ul.link a {
+	color: #000000;
+	font-weight: 500;
+}
+
+.flex_direct h4, .flex_direct i:hover {
+    color: #000000;
+}
+
+
+ul.link a:hover {
+	color: #000000;
+}
+
+
+
+/*---------------------------------------------------------------------------- conact css --------------------------------------*/
+
+.form_common {
+	color: #373a3c;
+	font-size: 16px;
+	margin-top: 30px;
+	font-weight: 600;
+}
+
+label.form_common {
+	margin-bottom: 10px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 0.6rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: rgb(78, 78, 78);
+	background-color: rgb(255, 255, 255);
+	background-clip: padding-box;
+	border: 1px solid rgb(206, 212, 218);
+	background-color: rgba(185, 200, 197, 0.405);
+	appearance: none;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-control:focus {
+	color: #212529;
+	background-color: rgba(185, 200, 197, 0.405);
+	border-color: none;
+	outline: none;
+	box-shadow: none;
+	border: none
+}
+
+.form_extra_space {
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+	padding: 30px 30px;
+
+}
+
+.form-check {
+	display: block;
+	min-height: 1.5rem;
+	padding-left: 1.5em;
+	margin-bottom: 0.125rem;
+	margin: 20px 0px;
+}
+
+label.form-check-label {
+	color: #373a3c;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+p.contat_p {
+	font-size: 13px;
+	color: #373a3ccf;
+	font-weight: 500;
+}
+
+div#status {
+	font-size: 25px;
+	font-weight: 500;
+	color: gray;
+	margin-bottom: 10px;
+}
+.contact_info p{
+	border-bottom: 2px solid #f1ece9;
+	font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+.contact_info, .our_services, .common_title h1{
+	font-weight: 600;
+}
+.container.text-center h1 {
+    font-weight: 700;
+}
+
+/* artist profile css */
+b, strong {
+    font-weight: 700;
+}
+
+fieldset {
+    color: #373a3c;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+fieldset input{
+	background-color: rgba(185, 200, 197, 0.405);
+	padding:5px 10px;
+	border:none;
+	outline: none;
+}
+fieldset p{
+margin: 10px 0px;
+}
+
+/*----------------------------------------------------responsive css------------------------------------------------------*/
+  
+@media (max-width: 767px) {
+	.hero_cta {
+	  background-attachment: scroll;
+	}
+	.content.text-center h3 {
+		font-size: 35px;
+	}
+	.content.text-center h4 {
+		font-size: 25px;
+	}
+	.form_extra_space {
+		width: 100%;
+	
+	}
+	.hero_cta {
+		padding: 50px 10px;
+		}
+	  .home1 {
+		min-height:60vh;
+	}
+
+  }
+
+  @media (min-width: 769px) {
+	.hero_cta .cta-btn-container {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
+	}
+	.content.text-center h3 {
+		color: #FFFFFF;
+		font-family: "Montserrat", Sans-serif;
+		font-size: 60px;
+	}
+	.text-center-buttn_small{
+		text-align: center;
+	}
+	.form-two-column {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2rem;
+	}
+  }
